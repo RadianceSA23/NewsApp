@@ -16,9 +16,9 @@ Get local, national, and global news categorized by topic, read articles offline
 
 🔍 Keyword-Based Search
 
-⭐ Bookmark & Read Later
+⭐ Bookmark & Read Later (Coming soon...)
 
-⚙️ Settings: Theme Toggle, Language, Clear Cache
+⚙️ Settings:  Language (Theme Toggle &Clear Cache - Coming soon...)
 
 📡 Network-aware: Offline-first design
 
