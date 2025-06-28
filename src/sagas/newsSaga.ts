@@ -6,14 +6,14 @@ import { PayloadAction } from '@reduxjs/toolkit';
 interface FetchNewsPayload {
   category: string;
   query: string;
-  language: string; // ✅ Add language to payload interface
+  language: string; 
 }
 
 function* handleFetchNews(action: PayloadAction<FetchNewsPayload>): Generator<any, void, any> {
   try {
     yield put(fetchNewsStart());
 
-    const { category, query, language } = action.payload; // ✅ Now safely destructured
+    const { category, query, language } = action.payload; 
 
     const data = yield call(fetchNews, { category, query, language });
     yield put(fetchNewsSuccess(data));
