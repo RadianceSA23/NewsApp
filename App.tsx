@@ -5,7 +5,7 @@ import { MainNavigator } from './src/navigation/MainNavigator';
 import { store } from './src/redux/store';
 import Toast from 'react-native-toast-message';
 
-// ✅ Add this log to verify the store is created correctly
+
 console.log('Store:', store);
 
 const App = () => {
