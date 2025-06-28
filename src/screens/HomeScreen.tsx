@@ -141,11 +141,11 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   categoryScroll: {
-    height: 40, // 👈 force consistent height
+    height: 40, 
     marginBottom: 10,
   },
   fixedChipRow: {
-    height: 42, // ✅ Fixed height ensures no jumping
+    height: 42, 
     marginBottom: 8,
   },
   
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee',
     borderRadius: 20,
     marginRight: 8,
-    height: 32, // ✅ Match height to prevent row from stretching
+    height: 32,
     justifyContent: 'center',
   },
   
