@@ -21,7 +21,7 @@ const HomeStack = () => (
     <Stack.Screen
       name="NewsDetail"
       component={NewsDetailScreen}
-    // 👈 Hide header here
+
     />
      <Stack.Screen name="WebView" component={WebViewScreen} />
   </Stack.Navigator>
@@ -29,12 +29,8 @@ const HomeStack = () => (
 
 export const MainNavigator = () => {
   return (
-    // <Tab.Navigator>
-    //   <Tab.Screen name="Home" component={HomeStack} />
-    //   <Tab.Screen name="Search" component={SearchScreen} />
-    //   <Tab.Screen name="Settings" component={SettingsScreen} />
-    // </Tab.Navigator>
-    <Stack.Navigator>
+  
+<Stack.Navigator>
  <Stack.Screen
       name="HomeMain"
       component={HomeScreen}
@@ -43,7 +39,7 @@ export const MainNavigator = () => {
     <Stack.Screen
       name="NewsDetail"
       component={NewsDetailScreen}
-    // 👈 Hide header here
+  
     />
      <Stack.Screen name="WebView" component={WebViewScreen} />
   </Stack.Navigator>
