@@ -9,10 +9,10 @@ const api = axios.create({
   },
 });
 
-// ✅ Add request interceptor
+
 api.interceptors.request.use(
   (config) => {
-    console.log(`🔼 ${config.method?.toUpperCase()} ${config.baseURL}${config.url}`);
+    console.log(` ${config.method?.toUpperCase()} ${config.baseURL}${config.url}`);
     console.log('Params:', config.params);
 
     // Automatically add apikey if missing
@@ -24,7 +24,7 @@ api.interceptors.request.use(
     return config;
   },
   (error) => {
-    console.log('❌ Request Error:', error);
+    console.log('Request Error:', error);
     return Promise.reject(error);
   }
 );
