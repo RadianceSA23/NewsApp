@@ -1,0 +1,73 @@
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Native
+*.log
+*.tmp
+*.lock
+
+# Metro
+.metro-cache/
+tmp/
+dist/
+build/
+
+# React Native Packager
+*.jsbundle
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+android/.cxx/
+*.apk
+*.ap_
+*.so
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace/
+ios/.idea/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Certificates/Keystores (Be careful with secrets!)
+*.jks
+*.keystore
+*.p12
+*.key
+
+# Git
+*.orig
+*.patch
+
+# Others
+*.hprof
