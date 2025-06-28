@@ -1,0 +1,17 @@
+current directory: /Users/subburajalagammal/Desktop/Github_showcase/RNOfflineNewsReader/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250627-1934-kkqx0u.rb extconf.rb
+creating Makefile
+
+current directory: /Users/subburajalagammal/Desktop/Github_showcase/RNOfflineNewsReader/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/subburajalagammal/Desktop/Github_showcase/RNOfflineNewsReader/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: search path '/AppleInternal/Library/BuildRoots/b684f3b8-9f6d-11ee-a9b5-daeed27c156b/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.3.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/subburajalagammal/Desktop/Github_showcase/RNOfflineNewsReader/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250627-1934-ez46rp

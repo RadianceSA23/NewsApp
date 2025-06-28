@@ -1,0 +1,21 @@
+export const CATEGORIES = [
+    { key: 'all', label: 'All' },
+    { key: 'top', label: 'Top' },
+    { key: 'business', label: 'Business' },
+    { key: 'crime', label: 'Crime' },
+    { key: 'domestic', label: 'Domestic' },
+    { key: 'education', label: 'Education' },
+    { key: 'entertainment', label: 'Entertainment' },
+    { key: 'environment', label: 'Environment' },
+    { key: 'food', label: 'Food' },
+    { key: 'health', label: 'Health' },
+    { key: 'lifestyle', label: 'Lifestyle' },
+    { key: 'politics', label: 'Politics' },
+    { key: 'science', label: 'Science' },
+    { key: 'sports', label: 'Sports' },
+    { key: 'technology', label: 'Technology' },
+    { key: 'tourism', label: 'Tourism' },
+    { key: 'world', label: 'World' },
+    { key: 'other', label: 'Other' },
+  ];
+  

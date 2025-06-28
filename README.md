@@ -1,94 +1,97 @@
-# NewsApp
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-📱 Offline News Reader App (React Native + Redux Toolkit + SQLite)
+# Getting Started
 
-A lightweight, offline-first news reader app built in React Native using NewsData.io API, Redux Toolkit with Redux-Saga, and SQLite for local caching.
+> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
-Get local, national, and global news categorized by topic, read articles offline, bookmark favorites, and switch languages — all within a minimal and clean UI.
+## Step 1: Start Metro
 
-🚀 Features
+First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-🌍 Top Headlines & Categories (World, India, State, etc.)
+To start the Metro dev server, run the following command from the root of your React Native project:
 
-⚡ Offline Caching via SQLite
+```sh
+# Using npm
+npm start
 
-🔁 Infinite Scroll & Pagination
+# OR using Yarn
+yarn start
+```
 
-🔍 Keyword-Based Search
+## Step 2: Build and run your app
 
-⭐ Bookmark & Read Later (Coming soon...)
+With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-⚙️ Settings: Theme Toggle, Language, Clear Cache (Coming soon...)
+### Android
 
-📡 Network-aware: Offline-first design
+```sh
+# Using npm
+npm run android
 
-📦 Clean Modular Architecture
+# OR using Yarn
+yarn android
+```
 
-🛠 Tech Stack
+### iOS
 
-React Native
+For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-TypeScript
+The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
 
-Redux Toolkit
+```sh
+bundle install
+```
 
-Redux-Saga
+Then, and every time you update your native dependencies, run:
 
-SQLite
+```sh
+bundle exec pod install
+```
 
-NewsData.io API
+For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-React Navigation
+```sh
+# Using npm
+npm run ios
 
-NetInfo
+# OR using Yarn
+yarn ios
+```
 
-📸 Screenshots
+If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
-<img width="638" alt="Screenshot 2025-06-27 at 7 13 06 PM" src="https://github.com/user-attachments/assets/d3e2d41d-e2aa-40c7-a50a-9bacbc3b43ed" />
-<img width="419" alt="Screenshot 2025-06-27 at 7 13 48 PM" src="https://github.com/user-attachments/assets/c0393599-36d2-4f36-b726-a094da58222b" />
+This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
+## Step 3: Modify your app
 
-📂 Folder Structure
+Now that you have successfully run the app, let's make changes!
 
-<img width="526" alt="Screenshot 2025-06-27 at 12 57 59 PM" src="https://github.com/user-attachments/assets/fb5d7cb7-46ae-4915-b961-2d84cd7f81e6" />
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
+When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
-📦 Installation & Setup
+- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
+- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
-<img width="500" alt="Screenshot 2025-06-27 at 12 58 45 PM" src="https://github.com/user-attachments/assets/554b21d6-ba1f-4660-8af7-f970a219d8cf" />
+## Congratulations! :tada:
 
-🔑 Add Your NewsData.io API Key
+You've successfully run and modified your React Native App. :partying_face:
 
-Create a .env file at the root:
+### Now what?
 
-NEWS_API_KEY=your_newsdata_api_key
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
 
-🧠 Architecture
+# Troubleshooting
 
-Redux Toolkit for state management
+If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-Redux-Saga for side effects and async flows
+# Learn More
 
-SQLite for persistent offline article storage
+To learn more about React Native, take a look at the following resources:
 
-Offline-first strategy using @react-native-community/netinfo
-
-Modular & clean architecture for scalability and testability
-
-🤝 Contributing
-
-Contributions are welcome! Please open an issue first to discuss changes.
-
-📄 License
-
-MIT
-
-🙌 Acknowledgements
-
-NewsData.io for free news API
-
-React Native Community
-
-Built with ❤️ to demonstrate scalable mobile architecture with offline-first design in React Native.
-
-
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
