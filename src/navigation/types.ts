@@ -1,4 +1,4 @@
-// navigation/types.ts
+
 import { Article } from '../types/news';
 
 export type RootStackParamList = {
