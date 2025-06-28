@@ -29,19 +29,19 @@ api.interceptors.request.use(
   }
 );
 
-// ✅ Add response interceptor
+
 api.interceptors.response.use(
   (response) => {
-    console.log(`✅ ${response.status} ${response.config.url}`);
+    console.log(`${response.status} ${response.config.url}`);
     return response;
   },
   (error) => {
     const res = error.response;
     if (res) {
-      console.log(`❌ Error ${res.status} on ${res.config.url}`);
+      console.log(`Error ${res.status} on ${res.config.url}`);
       console.log('Data:', res.data);
     } else {
-      console.log('❌ Network error:', error.message);
+      console.log('Network error:', error.message);
     }
     return Promise.reject(error);
   }
